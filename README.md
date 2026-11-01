@@ -44,3 +44,22 @@ The comparison illustrates how changes in inflation and interest rates have coin
 The scatterplot displays monthly observations of the federal funds rate and unemployment, alongside an OLS regression line and its 95% confidence interval.
 
 The fitted line summarizes the observed linear association between the federal funds rate and unemployment over the study period.
+## Regression Analysis
+
+**Model 1: Bivariate Regression**
+
+Unemployment = β₀ + β₁(Federal Funds Rate) + ε
+
+**Model 2: Multivariate Regression**
+
+Unemployment = β₀ + β₁(Federal Funds Rate) + β₂(Inflation) + ε
+
+The second specification controls for inflation to examine how the estimated relationship between interest rates and unemployment changes when inflation is controlled for.
+
+| Statistic | Model 1 | Model 2 |
+|---|---|---|
+| Federal Funds Rate Coefficient | -.58 | -.49 |
+| Federal Funds Rate P-value | 0 | 0 |
+| Inflation Coefficient | — | -.30 |
+| Inflation P-value | — | 0 |
+| R² | .36 | .42 |
